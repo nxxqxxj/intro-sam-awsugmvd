@@ -22,6 +22,12 @@ sam deploy
 
 El endpoint de API Gateway se mostrará como output cuando se termine de desplegar la infra.
 
+## API Test con Postman
+
+El archivo **sam-demo.postman_collection.json** es la collection para Postman, simplemente hay que agregar en variable el output de **sam deploy**. Formato: *https://{ServerlessRestApi}.execute-api.{AWS::Region}.amazonaws.com/Prod/*
+
+Postman: https://www.postman.com/
+
 ## Cleanup
 
 Para eliminar la aplicación de ejemplo, se puede hacer con el siguiente comando:
