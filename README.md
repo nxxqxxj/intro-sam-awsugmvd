@@ -1,9 +1,9 @@
 # intro-sam-awsugmvd
 
-Este proyecto contiene código y archivos de una app serverless y poder desplegarla con AWS-SAM-CLI. Incluye los siguientes archivos y carpetas:
+Este proyecto contiene código y archivos de una app serverless para poder desplegarla con AWS-SAM-CLI. Incluye los siguientes archivos y carpetas:
 
-- `src` - Código para laa funciones Lambda.
-- `template.yaml` - SAM Template donde se definen los recursos de AWS de la aplicación.
+- `src` - Código para las funciones Lambda.
+- `template.yaml` - SAM Template donde se definen los recursos de AWS de la aplicación, con sus respectivos permisos.
 
 
 ## Desplegar la infra serverless
@@ -36,7 +36,7 @@ Para eliminar la aplicación de ejemplo, se puede hacer con el siguiente comando
 sam delete
 ```
 
-## Resources
+## Recursos
 
 Doc: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html
 
